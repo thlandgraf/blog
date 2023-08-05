@@ -1,4 +1,4 @@
-**Introducing Astro-Insights: A New Frontier for AI in AstroDynamics**
+# **Introducing Astro-Insights: An AI for AstroDynamics**
 
 In our pursuit to leverage AI for practical applications, we're aiming high — straight into the cosmos. Our endeavor centers around creating systems that can assist experts in their specialized fields. With AstroDynamics posing unique challenges and complexity, we saw it as an ideal platform for an ambitious experiment — creating an assistant for the quintessential rocket scientist.
 
@@ -16,15 +16,15 @@ Today, we are pleased to announce the public release of the Astro-Insights Plugi
 
 Whether you're a seasoned aerospace engineer, a space enthusiast, or someone eager to explore AstroDynamics, we invite you to give Astro-Insights a try. We value your experiences, thoughts, and suggestions as we continue to refine this tool. Your feedback will play a significant role in shaping Astro-Insights and its future iterations.
 
-## Installation
+### Installation
 
-### What Are ChatGPT Plugins?
+#### What Are ChatGPT Plugins?
 
 ChatGPT Plugins are third-party extensions designed to extend the functionality of ChatGPT. According to OpenAI, "Plugins are tools designed specifically for language models with safety as a core principle, and help ChatGPT access up-to-date information, run computations, or use third-party services."
 
 The core function of a ChatGPT Plugin is to bring more useful information into ChatGPT, making the generative AI chatbot more useful.
 
-### How to Install a ChatGPT Plugin
+#### How to Install a ChatGPT Plugin
 
 Installing a ChatGPT Plugin takes just a few clicks, but you need a ChatGPT Plus subscription.
 

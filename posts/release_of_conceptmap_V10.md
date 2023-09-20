@@ -28,7 +28,3 @@ Thank you for being a part of this journey. We look forward to growing and evolv
 Stay tuned for more updates!
 
 **The Conceptmap Team**
-
----
-
-I hope this emphasizes the ChatGPT integration aspect sufficiently. Let me know if there are any other adjustments you'd like to see.

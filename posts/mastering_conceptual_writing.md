@@ -1,7 +1,5 @@
 # Mastering Conceptual Writing with the Conceptmap Plug-in for ChatGPT: A Comprehensive Guide
 
-_By [Your Name]_
-
 In the realm of conceptual writing, the depth and intricacy of ideas often demand tools that can keep pace with a writer's thought process. While ChatGPT has been a game-changer in AI-assisted writing, its true potential is unlocked when paired with the right extensions. Enter the Conceptmap plug-in, designed specifically to enhance and extend the capabilities of ChatGPT. This guide delves into the synergy of these tools and how to navigate the challenges of conceptual writing with their combined power.
 
 ## Understanding the Limitations of Large Language Models (LLMs)

@@ -13,7 +13,7 @@ We're pleased to announce the release of Conceptmap ChatGPT Plugin V1.2. This up
 
 ## Ordering Child Nodes
 
-- **Drag and Drop**: Users can now organize child nodes by dragging them to the desired position.
+- **Drag and Drop**: Users can now organize child nodes by dragging them to the desired position (This Feature is currently not supported on Firefox).
 - **Sorted Exports**: The order of child nodes will be reflected in HTML exports, ensuring a structured document. Users can set aspect section priorities directly from the root node's edit UI.
 
 ## Appending Content

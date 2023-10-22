@@ -18,5 +18,7 @@ When they click on the link, they'll be greeted by the Prompt-Wizard, which will
 
 It's a fun, educational tool designed to help users harness the full potential of ChatGPT, with a nod to the playful spirit of the early internet. Try it out and enhance your ChatGPT interactions!
 
+Try it out -> https://app.concept-map.com/prompt-wizard/0WNUhdJW
+
 ## Bug Fixes
 - We fixed a bug which caused an error in the ordering of child nodes and deletion of child nodes.

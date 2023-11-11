@@ -12,8 +12,9 @@ Here's a simple guide on how to utilize Conceptmap as Actions within your GPTs:
 3. Enter a name and description for your GPT and choose an appealing image.
 4. In the Instructions field, include the following directives: "Update the conceptmap to reflect the concepts discussed here. Access my work by reading nodes or querying the conceptmap. Always display the links to the conceptmap nodes when provided in a URL field from the actions."
 5. To get started, you might use conversation prompts like:
-   - "Read in the root node."
-   - "Show me the structure of the concept."
+  - "Create a new conceptmap" 
+  - "Read in the root node."
+  - "Show me the structure of the concept."
 6. Choose "Add actions."
 7. Select "Import OpenAPI Schema."
 8. Enter the following URL: `https://plugin.concept-map.com/openapi.yaml`

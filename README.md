@@ -12,5 +12,5 @@
 * **2023-11-12** [Announcement Conceptmap V1.3.1](posts/announce_V1.3.1.md)
 * **2023-11-19** [Mastering Conceptual Writing with the Conceptmap](posts/mastering_conceptual_writing.md)
 * **2024-03-31** [Farewell to Conceptmap V1.0 and Astro-Insights: A Heartfelt Goodbye](posts/discontinue-chatgpt-plugin-dev.md)
-
+* **2024-10-06** [Reviving the V-Model in 2024: Leveraging LLMs to Write Code with Precision](posts/v-model.md)
 

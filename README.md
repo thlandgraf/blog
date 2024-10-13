@@ -1,4 +1,5 @@
 # Posts
+* **2024-10-13** [Boosting My Development Workflow with Generative AI with a simple Script](posts/shell-promptor.md)
 * **2024-10-06** [Reviving the V-Model in 2024: Leveraging LLMs to Write Code with Precision](posts/v-model.md)
 * **2024-03-31** [Farewell to Conceptmap V1.0 and Astro-Insights: A Heartfelt Goodbye](posts/discontinue-chatgpt-plugin-dev.md)
 * **2024-02-22** [Unlocking the Potential of pbcopy: Streamlining AI Interactions with macOS Utilities](posts/pbcopy.md)

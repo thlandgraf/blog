@@ -1,4 +1,4 @@
-# The Plugins Manifest, API and the resulting Prompt
+# The ChatGPT Plugins Manifest, API and the resulting Prompt
 To build a plugin, understanding the end-to-end flow is crucial. It begins with creating a manifest file, hosting it on your domain, and filling it with essential metadata about your plugin. This includes authentication details and an OpenAPI spec for the endpoints you wish to expose. The model will then interpret the OpenAPI description fields, which should provide a natural language description for the different fields.
 
 * The `description_for_model` attribute in the `ai-plugin.json` file provides ample room (up to 8000 characters) for the plugin prompt. But it's equally important to effectively use other properties from the OpenAPI specification to enhance the prompt output.
@@ -57,3 +57,5 @@ compare the results with, what you intended in your `openapi.yaml` and `ai-plugi
 
 ## see also:
 * [Mastering ChatGPT Plugins: Optimizing Prompt Space in the Dynamic Plugin Prompt](https://wfhbrian.com/mastering-chatgpt-plugins-plugin-prompt-space/)
+
+[Join the Discussion or ask Questions on this Topic](https://github.com/thlandgraf/blog/discussions/categories/the-plugins-manifest-api-and-the-resulting-prompt){:target="_blank"}

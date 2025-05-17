@@ -22,5 +22,5 @@ To interact with ChatGPT, you'll need to use a programming language supported by
 
 In the realm of ChatGPT plugin development, dealing with natural language is a key challenge. While the OpenAI API provides robust capabilities for this, there are also numerous alternatives available. Projects like [Chroma](https://www.trychroma.com) or [LlamaIndex](https://github.com/jerryjliu/llama_index), which are vector databases, can be particularly useful for querying spoken or written words. However, it's important to remember that these solutions come with the overhead of maintaining an infrastructure. For many tasks, simpler technologies can be just as effective. For instance, the [cosine_similarity](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html) function from [Scikit-learn](https://scikit-learn.org/) can be a straightforward and efficient tool for comparing text. Balancing complexity and functionality is crucial in choosing the right tools for your plugin development journey.
 
-
+[Join the Discussion or ask Questions on this Topic ](https://github.com/thlandgraf/blog/discussions/categories/diving-into-the-nuts-and-bolts-of-chatgpt-plugin-development){:target="_blank"}
 

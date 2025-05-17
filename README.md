@@ -1,4 +1,7 @@
 # Posts
+* **2025-05-17** [Optimizing AWS Timestream for Cost Efficiency](posts/optimize_timestream.md)
+* **2025-05-10** [Vibe Coding: The Future of Software Development in Everyday Language](posts/vibe-coding.md)
+* **2025-03-29** [AWS Timestream Optimization](posts/optimize_timestream.md)
 * **2024-10-13** [Boosting My Development Workflow with Generative AI with a simple Script](posts/shell-promptor.md)
 * **2024-10-06** [Reviving the V-Model in 2024: Leveraging LLMs to Write Code with Precision](posts/v-model.md)
 * **2024-03-31** [Farewell to Conceptmap V1.0 and Astro-Insights: A Heartfelt Goodbye](posts/discontinue-chatgpt-plugin-dev.md)

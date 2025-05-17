@@ -1,0 +1,1 @@
+Take this Blogpost and add SEO Information as HTML embedding on the top.

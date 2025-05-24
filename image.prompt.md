@@ -1,14 +1,14 @@
-**"Create a digital illustration in a modern, vintage-inspired style. The design should combine steampunk aesthetics with futuristic elements, styled like a refined technical blueprint. Use a dark blue-gray backdrop as the base color, with brass and copper accents for metallic details. Highlight important elements with glowing turquoise neon accents, creating a sense of advanced technology. Maintain precise drafting tool marks, clear annotations in elegant, calligraphic script, and intricate mechanical details. The composition should feature a blend of historical mechanical motifs (like gears, levers, and dials) alongside sleek digital interfaces, such as tablets or holographic screens. Use soft shadows, subtle gradients, and a clean, balanced layout.
+“Create a 16:9 digital illustration in a refined, blueprint-meets-steampunk style that visually defines a futuristic but vintage-inspired tech aesthetic. The illustration should resemble a technical schematic on a textured blueprint paper, evoking craftsmanship and intelligence.
 
-The overall color scheme should include:
+Base the layout on a horizontal engineering draft board with the following artistic cues:
+	•	Background: Deep blueprint grid (#2A2E38) with light paper aging at the edges
+	•	Mechanical Motifs: Vintage drafting tools, gears, cogs, pipes, pistons, levers — subtly integrated and functionally positioned
+	•	Modern Tech Fusion: Include sleek UI elements like tablets, terminal screens, neural nets, or LLM blocks, blended into the machinery
+	•	Highlight Effects: Use glowing turquoise neon (#3EF5E0) to indicate AI activity or data flow; glow should subtly contrast with brass and copper
+	•	Metallic Accents: Brass (#C4953E) and Copper (#A64D3B) to detail mechanical parts, valves, and icons
+	•	Typography: Prominently include the blog post title in a classic serif font (e.g., Cinzel, Garamond) using warm ivory white (#EAE0C8); position like a blueprint label
+	•	Annotations: Use technical diagram callouts in calligraphic or drafting-style script (#EAE0C8), pointing to components or flows (e.g., “Prompt”, “LLM”, “Generated Code”)
+	•	Stylistic Effects: Add soft shadows, etched line effects, faint smudges, and drafting marks for realism
+	•	Composition: Balanced and clear — left-heavy compositions (e.g., machine input) flowing to right (e.g., screen/output) work well
 
-Background: Dark blue-gray (#2A2E38).
-
-Primary Accents: Brass (#C4953E) and Copper (#A64D3B).
-
-Highlight Accents: Glowing Turquoise Neon (#3EF5E0).
-
-Text and Annotations: Warm ivory white (#EAE0C8) in calligraphic style.
-
-The title of the blog post must be prominently included in a stylish, serif font (such as 'Cinzel' or 'Garamond'), using warm ivory white (#EAE0C8). Ensure the image has a 16:9 aspect ratio."**
-
+The image should visually represent the synergy between classical engineering and generative AI (vibe coding), forming a consistent visual signature that feels like an iconic blog brand.”**

@@ -1,1 +1,1 @@
-Format this as markdown. Do not alter the content, just format it.
+Format the ${selectedText} as markdown. Do not alter the content, just format it.

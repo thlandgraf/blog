@@ -1,4 +1,6 @@
 # Posts
+* **2025-05-31** [From Process Fatigue to Developer Flow: Merging eXtreme Programming with Vibe-Coding](posts/vibe-coding-and-xp.md)
+* **2025-05-24** [Give Vibe Coding Context](posts/give-vibecoding-context.md)
 * **2025-05-17** [Optimizing AWS Timestream for Cost Efficiency](posts/optimize_timestream.md)
 * **2025-05-10** [Vibe Coding: The Future of Software Development in Everyday Language](posts/vibe-coding.md)
 * **2024-10-13** [Boosting My Development Workflow with Generative AI with a simple Script](posts/shell-promptor.md)

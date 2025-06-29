@@ -1,6 +1,7 @@
 # Posts
 * **2025-06-29** [Claude Code's Memory: Working with AI in Large Codebases](posts/managing-claudecode-memory.md)
 * **2025-06-07** [Claude Code: A Different Beast](posts/claude-code-a-different-beast.md)
+* **2025-06-07** [Claude Code: A Different Beast](posts/claude-code-a-different-beast.md)
 * **2025-05-31** [From Process Fatigue to Developer Flow: Merging eXtreme Programming with Vibe-Coding](posts/vibe-coding-and-xp.md)
 * **2025-05-24** [Give Vibe Coding Context](posts/give-vibecoding-context.md)
 * **2025-05-17** [Optimizing AWS Timestream for Cost Efficiency](posts/optimize_timestream.md)

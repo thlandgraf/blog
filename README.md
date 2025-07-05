@@ -1,4 +1,5 @@
 # Posts
+* **2025-07-05** [How I Replaced JIRA with a 600-Line Claude Code Prompt](posts/how-i-replaced-jira-with-claude-code.md)
 * **2025-06-29** [Claude Code's Memory: Working with AI in Large Codebases](posts/managing-claudecode-memory.md)
 * **2025-06-07** [Claude Code: A Different Beast](posts/claude-code-a-different-beast.md)
 * **2025-05-31** [From Process Fatigue to Developer Flow: Merging eXtreme Programming with Vibe-Coding](posts/vibe-coding-and-xp.md)

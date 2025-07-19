@@ -6,7 +6,7 @@ We are thrilled to announce the release of Version 1.1 of the Conceptmap ChatGPT
 1. **Overview Visual Added:**
    - Now, visualize your entire concept effortlessly with the new Overview Visual feature. Zoom out and grasp the whole concept in all its facets, ensuring you have a comprehensive understanding and control over your ideas.
 
-![Conceptmap Overview](https://www.concept-map.com/assets/img/screenshots/1.sm.png)
+![Conceptmap Overview](/www.concept-map.com/assets/img/screenshots/1.sm.png)
 
 2. **Refined Predefined Prompts:**
    - We have fine-tuned the predefined prompts to generate even more relevant and suited results for your concept maps, ensuring efficiency and relevance in your brainstorming sessions.

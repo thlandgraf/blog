@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(ls:*)",
+      "WebFetch(domain:docs.aws.amazon.com)",
+      "WebFetch(domain:aws.amazon.com)",
+      "WebFetch(domain:aws.amazon.com)",
+      "WebFetch(domain:aws.amazon.com)",
+      "WebFetch(domain:www.globaldatanet.com)",
+      "WebFetch(domain:www.youtube.com)",
+      "WebFetch(domain:aws.amazon.com)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:www.dragonflydb.io)",
+      "WebFetch(domain:www.trek10.com)",
+      "WebFetch(domain:presidiotech.com)",
+      "WebFetch(domain:theburningmonk.com)",
+      "WebFetch(domain:mactores.com)",
+      "WebFetch(domain:www.anthropic.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(grep:*)",
+      "WebFetch(domain:simonwillison.net)",
+      "WebFetch(domain:techcrunch.com)",
+      "WebFetch(domain:www.haihai.ai)"
+    ],
+    "deny": []
+  }
+}

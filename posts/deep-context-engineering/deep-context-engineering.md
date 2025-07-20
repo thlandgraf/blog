@@ -54,9 +54,36 @@ I fed the OpenAI output to Claude with: "Based on this initial research document
 Result: Claude identified three outdated patterns, added five real-world examples, and integrated insights from recent GitHub issues.
 
 **Step 3: Creating the Master Context**  
-The combined document became `ditto-advanced-knowledge.md` in my project. Now, whenever I work on Ditto features, this context transforms my AI assistant from a confused junior developer into a knowledgeable architect.
+The combined document became `ditto-advanced-knowledge.md` in my project. Now, whenever I work on Ditto features, this context transforms my AI assistant from a confused junior developer into a knowledgeable architect. In Claude Code, priming the context is beautifully simple: just prompt: `Read @ditto-advanced-knowledge.md and understand`.
 
 The payoff? Features that previously took days of trial-and-error now ship in hours. The AI suggests optimizations I wouldn't have thought of. Most importantly, it *understands* our specific use case rather than giving generic advice.
+
+### Critical Best Practices I've Learned
+#### 1. Always Review Your Knowledge Files
+Hallucinations in knowledge documents are catastrophic—they compound with every use. After generating any knowledge file, I thoroughly review and tweak it myself and, even better, have our domain expert validate it. One incorrect API pattern in your knowledge file means every future implementation will be wrong.
+
+#### 2. Manage Context Wisely
+When knowledge files grow beyond 50KB (~12k token), you risk exhausting context tokens before actual coding begins. My solution: split them strategically:
+
+* `ditto-advanced-knowledge-policies.md` (access control patterns)
+* `ditto-advanced-knowledge-wot.md` (Thing Model implementations)
+* `ditto-advanced-knowledge-rql.md` (query language reference)
+
+This way, I only load what's relevant. After all, I rarely need WoT models when crafting RQL queries.
+
+#### 3. Monitor Your Token Usage
+Before importing knowledge files, I often run `/compact` or even `/clear` to maximize available context. Watch for Claude Code's "Compacting context" message—it's actively discarding your carefully curated knowledge. When this happens, reload the knowledge file.
+
+#### 4. Evolve Your Knowledge Files with Real Implementations
+After weeks of development, I've discovered a powerful pattern: enriching knowledge files with references to working code. For example, in my Ditto knowledge file, I'll add:
+```markdown
+For production-ready policy implementation, see @src/policies/DeviceAccessPolicy.cpp
+For complex RQL query patterns, see @src/queries/TimeSeriesAggregation.cpp
+```
+Claude Code can follow these references to examine actual working examples from your codebase. This creates a powerful feedback loop—your knowledge files become living documents that grow smarter with every successful implementation.
+The trade-off? These enhanced knowledge files become project-specific. While the base technical knowledge remains transferable, the code references tie them to your particular codebase. I maintain two versions: a "pure" knowledge file for sharing across projects and an "enhanced" version with implementation references for maximum effectiveness within each project.
+
+These practices transform knowledge files from static documents into dynamic tools that evolve with your project.
 
 ## 3. Why Can't Claude Code Research On-Demand?
 
@@ -200,22 +227,22 @@ As these research tools continue evolving—with OpenAI adding visual browsing a
 
 ## References
 
-[1] OpenAI. "Introducing deep research." OpenAI Blog, February 2025. https://openai.com/index/introducing-deep-research/
+[1] [OpenAI. "Introducing deep research." OpenAI Blog, February 2025.](https://openai.com/index/introducing-deep-research/)
 
-[2] DataCamp. "OpenAI's Deep Research: A Guide With Practical Examples." 2025. https://www.datacamp.com/blog/deep-research-openai
+[2] [DataCamp. "OpenAI's Deep Research: A Guide With Practical Examples." 2025.](https://www.datacamp.com/blog/deep-research-openai)
 
-[3] OpenAI Cookbook. "Introduction to deep research in the OpenAI API." 2025. https://cookbook.openai.com/examples/deep_research_api/introduction_to_deep_research_api
+[3] [OpenAI Cookbook. "Introduction to deep research in the OpenAI API." 2025.](https://cookbook.openai.com/examples/deep_research_api/introduction_to_deep_research_api)
 
-[4] Anthropic. "How we built our multi-agent research system." June 2025. https://www.anthropic.com/engineering/built-multi-agent-research-system
+[4] [Anthropic. "How we built our multi-agent research system." June 2025.](https://www.anthropic.com/engineering/built-multi-agent-research-system)
 
-[5] Anthropic. "Claude takes research to new places." November 2024. https://www.anthropic.com/news/research
+[5] [Anthropic. "Claude takes research to new places." November 2024.](https://www.anthropic.com/news/research)
 
-[6] Anthropic. "Introducing the Model Context Protocol." November 2024. https://www.anthropic.com/news/model-context-protocol
+[6] [Anthropic. "Introducing the Model Context Protocol." November 2024.](https://www.anthropic.com/news/model-context-protocol)
 
-[7] Bright Inventions. "Deep Research AI Tools: ChatGPT vs Claude vs Gemini vs Grok vs Perplexity." 2025. https://brightinventions.pl/blog/ai-deep-research-comparison/
+[7] [Bright Inventions. "Deep Research AI Tools: ChatGPT vs Claude vs Gemini vs Grok vs Perplexity." 2025.](https://brightinventions.pl/blog/ai-deep-research-comparison/)
 
-[8] Nature. "OpenAI's 'deep research' tool: is it useful for scientists?" 2025. https://www.nature.com/articles/d41586-025-00377-9
+[8] [Nature. "OpenAI's 'deep research' tool: is it useful for scientists?" 2025.](https://www.nature.com/articles/d41586-025-00377-9)
 
-[9] Lisa Peyton. "Claude's Deep Research Tool Just Blew the Competition Away." 2025. https://lisapeyton.com/claudes-deep-research-tool-just-blew-the-competition-away-heres-why-it-matters-for-marketers/
+[9] [Lisa Peyton. "Claude's Deep Research Tool Just Blew the Competition Away." 2025.](https://lisapeyton.com/claudes-deep-research-tool-just-blew-the-competition-away-heres-why-it-matters-for-marketers/)
 
-[10] TechCrunch. "OpenAI unveils a new ChatGPT agent for 'deep research'." February 2025. https://techcrunch.com/2025/02/02/openai-unveils-a-new-chatgpt-agent-for-deep-research/
+[10] [TechCrunch. "OpenAI unveils a new ChatGPT agent for 'deep research'." February 2025.](https://techcrunch.com/2025/02/02/openai-unveils-a-new-chatgpt-agent-for-deep-research/)

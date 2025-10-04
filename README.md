@@ -1,4 +1,5 @@
 # Posts
+* **2025-10-04** [Why I Choose TypeScript for LLM‑Based Coding](posts/bestchoice-typescript/bestchoice-typescript.md)
 * **2025-07-20** [Context Engineering for Claude Code: Mastering Deep Technical Knowledge](posts/deep-context-engineering/deep-context-engineering.md)
 * **2025-07-12** [Context Engineering: The Evolution Beyond Vibe-Coding](posts/context-engineering/context-engineering.md)
 * **2025-07-05** [How I Replaced JIRA with a 600-Line Claude Code Prompt](posts/how-i-replaced-jira-with-claude-code/how-i-replaced-jira-with-claude-code.md)

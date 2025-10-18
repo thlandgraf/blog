@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DORA 2025: The AI Amplifier Effect - Blueprint Steampunk Infographic</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;600&family=Libre+Baskerville:ital@0;1&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0a0a0b 0%, #1a1a2e 100%);
+            font-family: 'Oswald', sans-serif;
+            color: #e8d4b0;
+            overflow-x: hidden;
+        }
+        
+        /* Blueprint texture overlay */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(46, 125, 167, 0.03) 2px, rgba(46, 125, 167, 0.03) 4px),
+                repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(46, 125, 167, 0.03) 2px, rgba(46, 125, 167, 0.03) 4px);
+            pointer-events: none;
+            z-index: 1;
+        }
+        
+        .container {
+            width: 297mm; /* DIN A3 portrait width */
+            min-height: 420mm; /* DIN A3 portrait height */
+            margin: 0 auto;
+            padding: 40px;
+            position: relative;
+            background:
+                radial-gradient(ellipse at top left, rgba(46, 125, 167, 0.1) 0%, transparent 50%),
+                radial-gradient(ellipse at bottom right, rgba(184, 134, 11, 0.1) 0%, transparent 50%),
+                linear-gradient(180deg, rgba(25, 25, 35, 0.95) 0%, rgba(15, 15, 25, 0.98) 100%);
+            box-shadow: 0 0 100px rgba(46, 125, 167, 0.2);
+        }
+        
+        /* Steampunk gears decoration */
+        .gear {
+            position: absolute;
+            opacity: 0.1;
+            animation: rotate 60s linear infinite;
+        }
+        
+        .gear-1 {
+            top: 50px;
+            right: 100px;
+            width: 150px;
+            height: 150px;
+            animation-duration: 45s;
+        }
+        
+        .gear-2 {
+            bottom: 80px;
+            left: 80px;
+            width: 100px;
+            height: 100px;
+            animation-duration: 30s;
+            animation-direction: reverse;
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        /* Header Section */
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .title {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 72px;
+            background: linear-gradient(45deg, #b8860b, #ffd700, #daa520);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 40px rgba(184, 134, 11, 0.5);
+            letter-spacing: 4px;
+            margin-bottom: 20px;
+        }
+        
+        .subtitle {
+            font-size: 28px;
+            color: #2e7da7;
+            font-weight: 300;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            opacity: 0.8;
+        }
+        
+        .tagline {
+            font-family: 'Libre Baskerville', serif;
+            font-size: 20px;
+            font-style: italic;
+            color: #8b7355;
+            margin-top: 15px;
+        }
+        
+        /* Key Insight Card */
+        .key-insight {
+            background: linear-gradient(135deg, rgba(46, 125, 167, 0.1) 0%, rgba(184, 134, 11, 0.05) 100%);
+            border: 2px solid rgba(184, 134, 11, 0.3);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 40px 0;
+            position: relative;
+            backdrop-filter: blur(10px);
+            box-shadow: 
+                0 20px 40px rgba(0, 0, 0, 0.3),
+                inset 0 0 30px rgba(46, 125, 167, 0.1);
+        }
+        
+        .key-insight::before {
+            content: '⚙';
+            position: absolute;
+            top: -20px;
+            left: 30px;
+            font-size: 40px;
+            color: #b8860b;
+            opacity: 0.6;
+        }
+        
+        .key-insight h2 {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 36px;
+            color: #ffd700;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .key-insight p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #d4c5a9;
+        }
+        
+        /* Statistics Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin: 50px 0;
+        }
+        
+        .stat-card {
+            background: rgba(30, 30, 40, 0.8);
+            border: 1px solid rgba(184, 134, 11, 0.2);
+            border-radius: 10px;
+            padding: 25px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(46, 125, 167, 0.3);
+            border-color: rgba(184, 134, 11, 0.5);
+        }
+        
+        .stat-card::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(184, 134, 11, 0.1) 0%, transparent 70%);
+            animation: pulse 3s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.1; }
+        }
+        
+        .stat-number {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 48px;
+            color: #2e7da7;
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px rgba(46, 125, 167, 0.5);
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #8b7355;
+            font-weight: 300;
+        }
+        
+        /* Team Profiles Section */
+        .profiles-section {
+            margin: 60px 0;
+            padding: 40px;
+            background: linear-gradient(180deg, rgba(46, 125, 167, 0.05) 0%, rgba(30, 30, 40, 0.3) 100%);
+            border-radius: 20px;
+            border: 1px solid rgba(184, 134, 11, 0.2);
+        }
+        
+        .profiles-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .profiles-header h2 {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 42px;
+            color: #b8860b;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        
+        .profile-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+        
+        .profile-card {
+            background: rgba(25, 25, 35, 0.9);
+            border: 1px solid rgba(46, 125, 167, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        .profile-card:hover {
+            box-shadow: 0 10px 25px rgba(184, 134, 11, 0.2);
+            transform: translateX(5px);
+        }
+        
+        .profile-name {
+            font-size: 20px;
+            color: #ffd700;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        
+        .profile-percentage {
+            float: right;
+            color: #2e7da7;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .profile-desc {
+            font-size: 14px;
+            color: #a89677;
+            line-height: 1.5;
+        }
+        
+        /* AI Capabilities Model */
+        .capabilities-wheel {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 60px 0;
+            position: relative;
+            height: 500px;
+        }
+        
+        .wheel-center {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background: radial-gradient(circle, #b8860b 0%, #1a1a2e 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+            box-shadow: 0 0 50px rgba(184, 134, 11, 0.5);
+        }
+        
+        .wheel-center-text {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 24px;
+            color: #1a1a2e;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .capability-item {
+            position: absolute;
+            width: 180px;
+            padding: 15px;
+            background: rgba(46, 125, 167, 0.1);
+            border: 1px solid rgba(184, 134, 11, 0.3);
+            border-radius: 10px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .capability-item:hover {
+            background: rgba(184, 134, 11, 0.2);
+            transform: scale(1.1);
+            z-index: 5;
+        }
+        
+        .capability-item h4 {
+            color: #ffd700;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+        
+        .capability-item p {
+            font-size: 12px;
+            color: #a89677;
+            line-height: 1.4;
+        }
+        
+        /* Position capabilities in a circle */
+        .capability-1 { top: 0; left: 50%; transform: translateX(-50%); }
+        .capability-2 { top: 15%; right: 10%; }
+        .capability-3 { bottom: 15%; right: 10%; }
+        .capability-4 { bottom: 0; left: 50%; transform: translateX(-50%); }
+        .capability-5 { bottom: 15%; left: 10%; }
+        .capability-6 { top: 15%; left: 10%; }
+        .capability-7 { top: 50%; right: 0; transform: translateY(-50%); }
+        
+        /* Impact Visualization */
+        .impact-chart {
+            margin: 60px 0;
+            padding: 40px;
+            background: rgba(30, 30, 40, 0.5);
+            border-radius: 20px;
+            border: 1px solid rgba(46, 125, 167, 0.2);
+        }
+        
+        .impact-title {
+            text-align: center;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 36px;
+            color: #2e7da7;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        
+        .impact-bar {
+            margin: 20px 0;
+            position: relative;
+        }
+        
+        .impact-label {
+            font-size: 16px;
+            color: #d4c5a9;
+            margin-bottom: 8px;
+        }
+        
+        .impact-progress {
+            height: 30px;
+            background: rgba(25, 25, 35, 0.8);
+            border-radius: 15px;
+            overflow: hidden;
+            position: relative;
+            border: 1px solid rgba(184, 134, 11, 0.2);
+        }
+        
+        .impact-fill {
+            height: 100%;
+            border-radius: 15px;
+            position: relative;
+            transition: width 2s ease;
+            background: linear-gradient(90deg, #2e7da7 0%, #b8860b 100%);
+            box-shadow: 0 0 20px rgba(46, 125, 167, 0.5);
+        }
+        
+        .impact-value {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #ffd700;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        
+        /* Footer */
+        .footer {
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid rgba(184, 134, 11, 0.2);
+            text-align: center;
+        }
+        
+        .footer-text {
+            font-family: 'Libre Baskerville', serif;
+            font-size: 14px;
+            color: #8b7355;
+            font-style: italic;
+        }
+        
+        .source-link {
+            color: #2e7da7;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .source-link:hover {
+            color: #ffd700;
+        }
+        
+        /* Decorative Elements */
+        .circuit-line {
+            position: absolute;
+            background: linear-gradient(90deg, transparent 0%, rgba(46, 125, 167, 0.3) 50%, transparent 100%);
+            height: 1px;
+            animation: flow 3s linear infinite;
+        }
+        
+        @keyframes flow {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+        
+        /* Print Styles */
+        @media print {
+            body {
+                background: white;
+            }
+            .container {
+                width: 297mm;
+                height: 420mm;
+                margin: 0;
+                padding: 20mm;
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Decorative Gears -->
+    <svg class="gear gear-1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <path d="M50 10 L55 25 L70 20 L65 35 L80 35 L70 45 L80 55 L65 55 L70 70 L55 65 L50 80 L45 65 L30 70 L35 55 L20 55 L30 45 L20 35 L35 35 L30 20 L45 25 Z" 
+              fill="none" stroke="#b8860b" stroke-width="2" opacity="0.3"/>
+        <circle cx="50" cy="50" r="15" fill="none" stroke="#b8860b" stroke-width="2" opacity="0.3"/>
+    </svg>
+    
+    <svg class="gear gear-2" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <path d="M50 10 L55 25 L70 20 L65 35 L80 35 L70 45 L80 55 L65 55 L70 70 L55 65 L50 80 L45 65 L30 70 L35 55 L20 55 L30 45 L20 35 L35 35 L30 20 L45 25 Z" 
+              fill="none" stroke="#2e7da7" stroke-width="2" opacity="0.3"/>
+        <circle cx="50" cy="50" r="15" fill="none" stroke="#2e7da7" stroke-width="2" opacity="0.3"/>
+    </svg>
+    
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1 class="title">DORA 2025</h1>
+            <div class="subtitle">State of AI-Assisted Development</div>
+            <p class="tagline">"AI is an amplifier - magnifying strengths and exposing weaknesses"</p>
+        </header>
+        
+        <!-- Key Insight -->
+        <div class="key-insight">
+            <h2>The Amplifier Effect</h2>
+            <p>AI's primary role in software development is that of an amplifier. It magnifies the strengths of high-performing organizations and the dysfunctions of struggling ones. The greatest returns on AI investment come not from the tools themselves, but from a strategic focus on the underlying organizational system: the quality of the internal platform, the clarity of workflows, and the alignment of teams.</p>
+        </div>
+        
+        <!-- Statistics Grid -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">90%</div>
+                <div class="stat-label">AI Adoption Rate</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">80%+</div>
+                <div class="stat-label">Report Increased Productivity</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">30%</div>
+                <div class="stat-label">Have Low Trust in AI Code</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">2 hrs</div>
+                <div class="stat-label">Median Daily AI Interaction</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">71%</div>
+                <div class="stat-label">Use AI for Writing Code</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">7</div>
+                <div class="stat-label">Team Performance Profiles</div>
+            </div>
+        </div>
+        
+        <!-- Team Profiles Section -->
+        <div class="profiles-section">
+            <div class="profiles-header">
+                <h2>Seven Team Performance Archetypes</h2>
+            </div>
+            <div class="profile-grid">
+                <div class="profile-card">
+                    <div class="profile-name">
+                        Harmonious High-Achievers
+                        <span class="profile-percentage">20%</span>
+                    </div>
+                    <div class="profile-desc">Excellence realized - stable, low-friction environment with sustainable high performance</div>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-name">
+                        Pragmatic Performers
+                        <span class="profile-percentage">20%</span>
+                    </div>
+                    <div class="profile-desc">Consistent delivery with impressive speed and stability, functional but not peak engagement</div>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-name">
+                        Stable and Methodical
+                        <span class="profile-percentage">15%</span>
+                    </div>
+                    <div class="profile-desc">Steady artisans delivering high-quality work at a deliberate, sustainable pace</div>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-name">
+                        Constrained by Process
+                        <span class="profile-percentage">17%</span>
+                    </div>
+                    <div class="profile-desc">Running on a treadmill - stable systems but consumed by inefficient processes</div>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-name">
+                        The Legacy Bottleneck
+                        <span class="profile-percentage">11%</span>
+                    </div>
+                    <div class="profile-desc">Constant state of reaction where unstable systems dictate work and undermine morale</div>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-name">
+                        Foundational Challenges
+                        <span class="profile-percentage">10%</span>
+                    </div>
+                    <div class="profile-desc">Survival mode with significant gaps in processes, environment, and outcomes</div>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-name">
+                        High Impact, Low Cadence
+                        <span class="profile-percentage">7%</span>
+                    </div>
+                    <div class="profile-desc">Produce high-impact work but with low delivery throughput and high instability</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- AI Capabilities Model -->
+        <div class="capabilities-wheel">
+            <div class="wheel-center">
+                <div class="wheel-center-text">DORA AI<br/>Capabilities</div>
+            </div>
+            <div class="capability-item capability-1">
+                <h4>Clear AI Policy</h4>
+                <p>Established guidelines for responsible AI use</p>
+            </div>
+            <div class="capability-item capability-2">
+                <h4>Healthy Data Ecosystem</h4>
+                <p>Clean, accessible, well-governed data</p>
+            </div>
+            <div class="capability-item capability-3">
+                <h4>Quality Internal Platform</h4>
+                <p>90% adoption of platform engineering</p>
+            </div>
+            <div class="capability-item capability-4">
+                <h4>User-Centric Focus</h4>
+                <p>AI applied to real user problems</p>
+            </div>
+            <div class="capability-item capability-5">
+                <h4>Value Stream Management</h4>
+                <p>Visualizing and optimizing workflow</p>
+            </div>
+            <div class="capability-item capability-6">
+                <h4>Engineering Discipline</h4>
+                <p>Strong technical practices foundation</p>
+            </div>
+            <div class="capability-item capability-7">
+                <h4>Learning Culture</h4>
+                <p>Continuous adaptation and improvement</p>
+            </div>
+        </div>
+        
+        <!-- Impact Visualization -->
+        <div class="impact-chart">
+            <h3 class="impact-title">AI Impact on Key Outcomes</h3>
+            
+            <div class="impact-bar">
+                <div class="impact-label">Individual Effectiveness ↑</div>
+                <div class="impact-progress">
+                    <div class="impact-fill" style="width: 85%;">
+                        <span class="impact-value">+18%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="impact-bar">
+                <div class="impact-label">Software Delivery Throughput ↑</div>
+                <div class="impact-progress">
+                    <div class="impact-fill" style="width: 65%;">
+                        <span class="impact-value">+5%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="impact-bar">
+                <div class="impact-label">Code Quality ↑</div>
+                <div class="impact-progress">
+                    <div class="impact-fill" style="width: 70%;">
+                        <span class="impact-value">+8%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="impact-bar">
+                <div class="impact-label">Product Performance ↑</div>
+                <div class="impact-progress">
+                    <div class="impact-fill" style="width: 60%;">
+                        <span class="impact-value">+6%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="impact-bar">
+                <div class="impact-label">Software Delivery Instability ⚠️</div>
+                <div class="impact-progress">
+                    <div class="impact-fill" style="width: 75%; background: linear-gradient(90deg, #8b0000 0%, #ff4500 100%);">
+                        <span class="impact-value">+15%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Key Recommendations -->
+        <div class="key-insight" style="margin-top: 60px;">
+            <h2>Strategic Imperatives</h2>
+            <p><strong>1. Systems Over Tools:</strong> Treat AI adoption as organizational transformation, not just tool deployment<br/><br/>
+               <strong>2. Platform Excellence:</strong> Prioritize and fund platform engineering - 90% of organizations have adopted it<br/><br/>
+               <strong>3. Critical Training:</strong> Focus on teaching teams to guide, evaluate, and validate AI work<br/><br/>
+               <strong>4. Value Stream Focus:</strong> Use VSM to ensure AI amplifies the right problems<br/><br/>
+               <strong>5. Team Health First:</strong> Understand your team's profile and apply targeted interventions</p>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <p class="footer-text">
+                Based on the <a href="#" class="source-link">2025 State of AI-assisted Software Development Report</a><br/>
+                Nearly 5,000 technology professionals surveyed globally • June-July 2025<br/>
+                <em>"The value of AI is unlocked not by tools, but by the surrounding technical and cultural environment"</em>
+            </p>
+        </footer>
+    </div>
+    
+    <script>
+        // Animate progress bars on scroll
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px 0px -100px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const fills = entry.target.querySelectorAll('.impact-fill');
+                    fills.forEach(fill => {
+                        const width = fill.style.width;
+                        fill.style.width = '0';
+                        setTimeout(() => {
+                            fill.style.width = width;
+                        }, 100);
+                    });
+                }
+            });
+        }, observerOptions);
+        
+        const impactChart = document.querySelector('.impact-chart');
+        if (impactChart) {
+            observer.observe(impactChart);
+        }
+        
+        // Add subtle parallax effect
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const gears = document.querySelectorAll('.gear');
+            gears.forEach((gear, index) => {
+                const speed = index === 0 ? 0.5 : -0.3;
+                gear.style.transform = `rotate(${scrolled * speed}deg)`;
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 {
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
-      "text": "This is a Repo for Blog-posts and Articles. So commits shall introduce a new-post when a new post is commited. When older posts are updated, the commit message should reflect that. For all other commit content use git conventions",
+      "text": "This is a Repo for Blog-posts and Articles. Infer the title of new post(s) as commit message from filenames and markdown files only",
     }
   ]
 }

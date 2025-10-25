@@ -1,4 +1,5 @@
 # Posts
+* **2025-10-25** [From MVP to V1.0: The Beautiful Horror of the Pareto Principle in Product Development](posts/mvp-to-v10/mvp-to-v10.v2.md)
 * **2025-10-18** [AI and the Fundamentals of Software Engineering — What the 2025 DORA Report Really Tells Us](posts/dora2025/dora2025.md)
 * **2025-10-04** [Why I Choose TypeScript for LLM‑Based Coding](posts/bestchoice-typescript/bestchoice-typescript.md)
 * **2025-07-20** [Context Engineering for Claude Code: Mastering Deep Technical Knowledge](posts/deep-context-engineering/deep-context-engineering.md)

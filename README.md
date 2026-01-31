@@ -1,4 +1,5 @@
 # Posts
+* **2026-01-31** [Why Transforming Software Teams to LLM-Augmented Development in 2026 Is Easier Than in 2027](posts/anxiety2027/anxiety2027.md)
 * **2026-01-24** [When AI Writes the Code, Software Stops Being the Bottleneck](posts/software-bottleneck/software-bottleneck.md)
 * **2025-10-25** [From MVP to V1.0: The Beautiful Horror of the Pareto Principle in Product Development](posts/mvp-to-v10/mvp-to-v10.v2.md)
 * **2025-10-18** [AI and the Fundamentals of Software Engineering — What the 2025 DORA Report Really Tells Us](posts/dora2025/dora2025.md)

@@ -1,4 +1,5 @@
 # Posts
+* **2026-05-07** [The Window Is Closing: Spend $1200 on Yourself Before AI Pricing Catches Up](posts/invest1200dollar/invest1200dollar.md)
 * **2026-04-18** [I Gave Seven Local LLMs a Real Job. Two Did It.](posts/LocalLLM/LocalLLM.md)
 * **2026-01-31** [Why Transforming Software Teams to LLM-Augmented Development in 2026 Is Easier Than in 2027](posts/anxiety2027/anxiety2027.md)
 * **2026-01-24** [When AI Writes the Code, Software Stops Being the Bottleneck](posts/software-bottleneck/software-bottleneck.md)
